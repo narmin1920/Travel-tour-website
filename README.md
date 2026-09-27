@@ -33,6 +33,3 @@ List the main files included in your submission.
 - `index.html`
 - `style.css`
 
-## Additional Notes
-
-Add any extra comments you would like to include about your work.
