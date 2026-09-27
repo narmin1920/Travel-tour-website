@@ -5,22 +5,25 @@
 
 ## Student Information
 
-- **Name:**  
-- **Student ID:**  
+- **Name: Narmin Semsarian
+- **Student ID:**  s308836
 
 ## Proposal
 
-Write a brief description of your redesign proposal here.
+Adventuro is a responsive travel and platform. Te design focused on a "computer" first, inspired by real travel tour website
 
 ## Main Changes
 
-Briefly describe the main changes you introduced in relation to the version developed in the lab sessions.
+more complex design 
+transitioned form sigle page to 4 full page 
 
 ## Hand-Drawn Sketch
 
-Include below **one image of a hand-drawn sketch**, produced before starting the implementation, showing the layout or interface idea you planned to develop.
+## Hand-Drawn Sketch
 
-<!-- Insert your image here -->
+![Initial layout sketch for Aventuro](images/sketch.jpg)
+
+<!-- Insert your image here --> 
 <!-- Example: ![Hand-drawn sketch](sketch.jpg) -->
 
 ## Project Structure

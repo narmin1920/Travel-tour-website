@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aventuro</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class = "grid-container">
+    <header class="bg-white shadow-sm sticky-top">
+      <div class="header-top-container d-flex justify-content-between align-items-center py-2 px-4">
+        <div class="logo-wrapper">
+          <img class="logo" src="images/logo.png" alt="Aventuro Logo">
+        </div>
+    
+        <div class="user">
+          <button class="btn-login">Login</button>
+          <button class="btn-register">Register</button>
+        </div>
+      </div>
+    
+      <nav class="nav-bar navbar navbar-expand-lg"> 
+        <div class="container-fluid">
+        <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="mynav d-flex flex-column flex-lg-row w-100 justify-content-center align-items-center mb-0">
+            <li><a href="#">Blog</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="#">Tours</a></li> 
+            <li><a href="#">Who we are</a></li> 
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container my-5">
+      <div class="row">
+        <section class="col-lg-12">
+          <div class="main-img d-flex align-item-center justify-content-center">
+            <img src="images/main.png" alt="This is main photos">
+          </div>
+
+          <form class="search-box bg-white d-flex shadow-sm rounded">
+            <input type="text" class="form-control border-0 rounded-0 p-3" placeholder="where">
+            <div class="vr"></div> <input type="text" class="form-control border-0 rounded-0 p-3" placeholder="when" onfocus="(this.type='date')">
+            <button type="submit" class="btn-search rounded-0 px-5">search</button>
+          </form>
+  
+        </section>
+      </div>
+      
+      
+      
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
